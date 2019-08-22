@@ -80,6 +80,9 @@ p.logo {
 	text-transform: uppercase;
 	top: 17px;
 }
+img.logo {
+    padding-top: 20px;
+}
 p.logo strong {
 	font-weight: 700;
 }
@@ -258,7 +261,7 @@ article ul li:before {
 	color: #fff;
 	content: "\f006";
 	display: inline-block;
-	font-family: "mfg";
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
 	font-size: 0.8em;
 	height: 20px;
 	line-height: 20px;
