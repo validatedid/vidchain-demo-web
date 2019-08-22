@@ -158,22 +158,22 @@ p.logo strong {
 .owl-carousel.owl-theme .owl-dot.active span, .owl-carousel.owl-theme .owl-dot:hover span {
 	background: none repeat scroll 0 0 #92c500;
 }
-#first-block {
+#download-block {
 	background: none repeat scroll 0 0 #00283a;
 	padding: 3em 2em;
 	text-align: center;
 }
-#first-block h1 {
+#download-block h1 {
 	color: #fff;
 	font-size: 2em;
 	font-weight: 300;
 	margin-top: 0;
 }
-#first-block p {
+#download-block p {
 	color: #6c7c84;
 	font-size: 0.85em;
 }
-#features {
+#steps {
 	background: none repeat scroll 0 0 #fff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 6em 2em;
@@ -181,7 +181,7 @@ p.logo strong {
 	text-align: center;
 	z-index: 2;
 }
-#features i {
+#steps i {
 	background: none repeat scroll 0 0 #92c500;
 	border-radius: 100px;
 	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3) inset;
@@ -193,13 +193,14 @@ p.logo strong {
 	text-align: center;
 	width: 100px;
 }
-#features h2 {
+#steps h2 {
 	font-size: 1em;
 	font-weight: 600;
 	margin: 1.25em 0;
 	text-transform: uppercase;
 }
-#features p {
+
+#steps p {
 	color: #777;
 	font-size: 0.85em;
 	line-height: 1.5em;
@@ -301,7 +302,7 @@ h2.section-title {
 	text-align: center;
 	text-transform: uppercase;
 }
-#our-work {
+#demo {
 	background: none repeat scroll 0 0 #fff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 6em 2em;
@@ -313,12 +314,12 @@ h2.section-title {
 	margin-top: 1.25em;
 	padding: 1.25em 0;
 }
-.our-work-container {
+.demo-container {
 	display: block;
 	height: 100%;
 	position: relative;
 }
-.our-work-text {
+.demo-text {
 	background: #00283a none repeat scroll 0 0;
 	bottom: 0;
 	display: block;
@@ -335,15 +336,15 @@ h2.section-title {
 	-webkit-transition: opacity 0.20s linear 0s;
 	width: 100%;
 }
-.our-work-container:hover > .our-work-text {
+.demo-container:hover > .demo-text {
 	opacity: 1;
 }
-.our-work-text h4 {
+.demo-text h4 {
 	color: #fff;
 	font-size: 1em;
 	font-weight: 600;
 }
-.our-work-text p {
+.demo-text p {
 	color: #fff;
 	font-size: 0.8em;
 	opacity: 0.7;
@@ -367,19 +368,19 @@ a.tab-label:hover, a.tab-label.active-btn {
 	background: #92c500;
 	color: #fff;
 }
-#services {
+#set-up {
 	background: #6f9600 none repeat scroll 0 0;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 6em 2em;
 }
-#services h2 {
+#set-up h2 {
 	color: #fff;
 	margin: 0 0 1.25em;
 }
-#services h2.section-title:after {
+#set-up h2.section-title:after {
 	background: #fff none repeat scroll 0 0;
 }
-#services i {
+#set-up i {
 	background: none repeat scroll 0 0 #fff;
 	border-radius: 80px;
 	color: #6f9600;
@@ -396,13 +397,13 @@ a.tab-label:hover, a.tab-label.active-btn {
 	display: table;
 	position: relative;
 }
-#services h3 {
+#set-up h3 {
 	color: #fff;
 	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
 }
-#services p {
+#set-up p {
 	color: #fff;
 	font-size: 0.8em;
 }
