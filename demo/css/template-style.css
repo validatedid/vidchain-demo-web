@@ -13,13 +13,13 @@ a.white-btn {
 	-webkit-transition: all 0.20s linear 0s;
 }
 a.white-btn:hover {
-	background: none repeat scroll 0 0 #cfcfd1;
+	background: #00bf71 repeat scroll 0 0;
 }
 a.color-btn, form.customform button.color-btn {
-	background: none;
+	background: #888b8d;
 	border: 1px solid #434446;
 	border-radius: 3px;
-	color: #888b8d;
+	color: #fff;
 	display: block;
 	font-size: 0.85em;
 	padding: 0.625em 1.25em;
@@ -31,7 +31,8 @@ a.color-btn, form.customform button.color-btn {
 }
 a.color-btn:hover, form.customform button.color-btn:hover {
 	border: 1px solid #00bf71;
-	color: #00bf71;
+    color: #fff;
+    background: #00bf71;
 }
 #topbar {
 	background: none repeat scroll 0 0 #434446;
