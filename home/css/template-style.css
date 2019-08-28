@@ -1,6 +1,23 @@
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration:none;
+    color:#00bf71;
+    transition:color 0.20s linear 0s;
+    -o-transition:color 0.20s linear 0s;
+    -ms-transition:color 0.20s linear 0s;
+    -moz-transition:color 0.20s linear 0s;
+    -webkit-transition:color 0.20s linear 0s;
+  }  
+a:hover {
+    color:#00bf71;
+}
+a.demo-vid {
+    color: #66d9aa;
+    font-size: 1.2em;
+}
 a.white-btn {
 	border: 1px solid #fff;
-	border-radius: 3px;
+    border-radius: 3px;
+    background: #00bf71;
 	color: #fff;
 	display: block;
 	font-size: 0.85em;
@@ -13,7 +30,8 @@ a.white-btn {
 	-webkit-transition: all 0.20s linear 0s;
 }
 a.white-btn:hover {
-	background: #00bf71 repeat scroll 0 0;
+    background: #434446 repeat scroll 0 0;
+    color: #fff;
 }
 a.color-btn, form.customform button.color-btn {
 	background: #888b8d;
@@ -291,8 +309,8 @@ article ul li:before {
 	width: 60px;
 }
 .demo-icons a {
-    color: #fff;
-    font-size: 1.5em;
+    color: #66d9aa;
+    font-size: 1.2em;
 }
 .demo-icons {
 	display: block;
