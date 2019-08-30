@@ -15,13 +15,13 @@ a.demo-vid {
     font-size: 1.2em;
 }
 a.white-btn {
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
     border-radius: 3px;
     background: #00bf71;
 	color: #fff;
 	display: block;
 	font-size: 0.85em;
-	margin-top: 1.25em;
+	margin-top: 2em;
 	padding: 0.625em 1.25em;
 	transition: all 0.20s linear 0s;
 	-o-transition: all 0.20s linear 0s;
@@ -30,7 +30,7 @@ a.white-btn {
 	-webkit-transition: all 0.20s linear 0s;
 }
 a.white-btn:hover {
-    background: #434446 repeat scroll 0 0;
+    background: #008f55 repeat scroll 0 0;
     color: #fff;
 }
 a.color-btn, form.customform button.color-btn {
@@ -83,13 +83,15 @@ a.color-btn:hover, form.customform button.color-btn:hover {
 	opacity: 1;
 }
 nav {
-	background: none repeat scroll 0 0 #434446;
+	background: none repeat scroll 0 0 #00bf71;
 }
 header {
-	border-bottom: 4px solid #434446;
+	/*border-bottom: 4px solid #434446;*/
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 	position: fixed;
 	width: 100%;
 	z-index: 10;
+
 }
 p.logo {
 	color: #fff;
@@ -101,12 +103,13 @@ p.logo {
 }
 img.logo {
     padding-top: 20px;
+	border: none;
 }
 p.logo strong {
 	font-weight: 700;
 }
 .top-nav li a {
-	border-top: 2px solid #434446;
+	border-top: 2px solid #008f55;
 	color: #fff;
 	font-size: 0.95em;
 	font-weight: 600;
@@ -119,9 +122,9 @@ p.logo strong {
 	-webkit-transition: all 0.20s linear 0s;
 }
 .top-nav li a:hover, .top-nav li.active-item a {
-	background: none repeat scroll 0 0 #434446;
-	border-top: 2px solid #00bf71;
-	color: #00bf71;
+	background: none repeat scroll 0 0 #008f55;
+	/*border-top: 2px solid #00bf71;*/
+	color: #fff;
 	position: relative;
 }
 #carousel .text {
@@ -144,7 +147,7 @@ p.logo strong {
 	width: 30px;
 }
 #carousel .text h2 {
-	background: none repeat scroll 0 0 #00bf71;
+	background: none repeat scroll 0 0 #008f55;
 	color: #fff;
 	display: inline-block;
 	font-size: 2em;
@@ -153,13 +156,15 @@ p.logo strong {
 	max-width: 600px;
 	padding: 10px 20px;
 	width: 100%;
+	border-radius: 5px;
 }
 #carousel .text p {
-	background: none repeat scroll 0 0 #888b8d;
+	background: none repeat scroll 0 0 #00bf71;
 	color: #fff;
 	max-width: 600px;
 	padding: 10px 20px;
 	width: 100%;
+	border-radius: 5px;
 }
 #carousel .owl-dots {
 	background: none repeat scroll 0 0 #888b8d;
@@ -181,22 +186,22 @@ p.logo strong {
 	background: none repeat scroll 0 0 #00bf71;
 }
 #download-block {
-	background: none repeat scroll 0 0 #888b8d;
-	padding: 3em 2em;
+	background: none repeat scroll 0 0 #fff;
+	padding: 6em 2em;
 	text-align: center;
 }
 #download-block h1 {
-	color: #fff;
+	color: #888B8D;
 	font-size: 2em;
 	font-weight: 300;
 	margin-top: 0;
 }
 #download-block p {
-	color: #fff;
+	color: #888B8D;
 	font-size: 0.85em;
 }
 #steps {
-	background: none repeat scroll 0 0 #fff;
+	background: none repeat scroll 0 0 #f5f5f5;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 	padding: 6em 2em;
 	position: relative;
@@ -228,7 +233,7 @@ p.logo strong {
 	line-height: 1.5em;
 }
 #demo {
-	background: none repeat scroll 0 0 #434446;
+	background: none repeat scroll 0 0 #fff;
     padding: 6em 2em;
 	position: relative;
 	z-index: 2;
@@ -252,7 +257,7 @@ article h2 {
 	margin: 0 0 0.625em 0
 }
 article h1, article h2, article h3, article h4, article h5, article h6 {
-	color: #fff;
+	color: #434446;
 }
 .media-container {
   overflow: hidden;
@@ -265,7 +270,7 @@ article h1, article h2, article h3, article h4, article h5, article h6 {
   width: auto;
 }
 article p, article li{
-	color: #fff;
+	color: #434446;
 	font-size: 0.85em;
 	opacity: 0.7;
 }
@@ -311,39 +316,52 @@ article ul li:before {
 .demo-icons a {
     color: #66d9aa;
     font-size: 1.2em;
+	line-height: 60px;
 }
 .demo-icons {
 	display: block;
 	margin-top: 2em;
 }
 h2.section-title:after {
-	background: #dedede none repeat scroll 0 0;
+	background: #434446 none repeat scroll 0 0;
 	content: "";
 	display: block;
 	height: 1px;
 	margin: 0.31225em auto 0;
 	position: relative;
-	width: 100px;
+	width: 75px;
 }
 h2.section-title {
-	color: #dedede;
-	font-size: 3.8em;
+	color: #434446;
+	font-size: 2.5em;
 	font-weight: 700;
 	letter-spacing: -1px;
 	margin: 0 0 1.25em;
 	text-align: center;
-	text-transform: uppercase;
 }
 
 .tab-item {
-	background: #cfcfd1 none repeat scroll 0 0;
+	background: #fff none repeat scroll 0 0;
+	margin-top: 1.25em;
+	padding: 1.25em 0;
+}
+.tab-item2 {
+	background: #f5f5f5 none repeat scroll 0 0;
 	margin-top: 1.25em;
 	padding: 1.25em 0;
 }
 .demo-container {
 	display: block;
-	height: 100%;
+	/*height: 100%;*/
+	min-height: 337px;
 	position: relative;
+}
+.image-cover{
+	height: 337px;
+	object-fit: cover;
+}
+.widthauto{
+	width: auto;
 }
 .demo-text {
 	background: #434446 none repeat scroll 0 0;
@@ -389,22 +407,34 @@ a.tab-label, a.tab-label:link, a.tab-label:visited {
 	-ms-transition: all 0.20s linear 0s;
 	-moz-transition: all 0.20s linear 0s;
 	-webkit-transition: all 0.20s linear 0s;
+	border-radius: 5px;
 }
 a.tab-label:hover, a.tab-label.active-btn {
 	background: #00bf71;
 	color: #fff;
+	border-radius: 5px;
 }
-#set-up, #demo-instructions {
-	background: #cfcfd1 none repeat scroll 0 0;
-	box-shadow: 0 0 10px 0 #888b8d;
+#demo-instructions {
+	background: #f5f5f5 none repeat scroll 0 0;
+	padding: 6em 2em;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	position: relative;
+	z-index: 4;
+}
+#set-up {
+	background: #fff none repeat scroll 0 0;
 	padding: 6em 2em;
 }
-#set-up h2, #demo-instructions h2 {
-	color: #fff;
+#set-up h2 {
+	color: #434446;
+	margin: 0 0 1.25em;
+}
+#demo-instructions h2 {
+	color: #434446;
 	margin: 0 0 1.25em;
 }
 #set-up h2.section-title:after {
-	background: #fff none repeat scroll 0 0;
+	background: #888B8D none repeat scroll 0 0;
 }
 #set-up i {
 	background: none repeat scroll 0 0 #fff;
@@ -523,13 +553,18 @@ form.customform button.color-btn {
   filter: grayscale(100%);    
   filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
 }
+.noborder-centered{
+	border: none;
+	display:block;
+	margin:auto;
+}
 footer {
-	background: none repeat scroll 0 0 #888b8d;
-	padding: 3.5em 0;
+	background: none repeat scroll 0 0 #434446;
+	padding: 1.5em 0;
 }
 footer p, footer a:visited, footer a, footer a:hover {
 	color: #fff;
-	font-size: 0.8em;
+	font-size: 0.6em;
 }
 @media screen and (max-width: 768px) {
   header {

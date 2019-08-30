@@ -12,10 +12,12 @@ jQuery(document).ready(function($) {
       var tab_url = $(this).attr('data-url');                   
       if ($(this).attr('data-url')) {        
         $(this).closest('.tab-item').attr("id", tab_url);
-        $(this).attr("href", "#" + tab_url);          
+        $(this).closest('.tab-item2').attr("id", tab_url);
+        $(this).attr("href", "#" + tab_url);
       }else{                  
         $(this).closest('.tab-item').attr("id", "tab-" + (i + 1));
-        $(this).attr("href", "#tab-" + (i + 1));         
+        $(this).closest('.tab-item2').attr("id", "tab-" + (i + 1));
+        $(this).attr("href", "#tab-" + (i + 1));
       }
     });  
     $(this).prepend('<div class="tab-nav line"></div>');
@@ -26,6 +28,7 @@ jQuery(document).ready(function($) {
         $(this).addClass("active-btn");
         var tab = $(this).attr("href");
         $(this).parent().parent().find(".tab-item").not(tab).css("display", "none");
+        $(this).parent().parent().find(".tab-item2").not(tab).css("display", "none");
         $(this).parent().parent().find(tab).fadeIn();
         $('html,body').animate({scrollTop: $(tab).offset().top - 160},'slow'); 
       if ($(this).attr('data-url')) { 
