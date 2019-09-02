@@ -12,8 +12,9 @@
 }
 body {
   background:none repeat scroll 0 0 #eeeeee;
-  font-size:16px;
-  font-family: 'Montserrat', sans-serif;
+  font-size:18px;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Lato', sans-serif;
   color:#434446;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -30,7 +31,7 @@ h5 {font-size:1.1rem;}
 h6 {font-size:0.9rem;}    
 
 p,li,dl,blockquote,table,kbd {
-  font-size: 0.85rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 b,strong {font-weight:700;}
@@ -108,7 +109,7 @@ mark {
   padding: 0.125rem 0.3125rem;
 }
 .size-960 .line,.size-960 .grid {max-width:59.75rem;}
-.size-1140 .line,.size-1140 .grid {max-width:71rem;}
+.size-1140 .line,.size-1140 .grid {max-width:80rem;}
 .size-1280 .line,.size-1280 .grid {max-width:80rem;}
 .size-1520 .line,.size-1520 .grid {max-width:95rem;}
 .grid.full {
@@ -498,7 +499,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
 .line-full-width .margin2x > .xl-1,.line-full-width .margin2x > .xl-2,.line-full-width .margin2x > .xl-five,.line-full-width .margin2x > .xl-3,.line-full-width .margin2x > .xl-4,.line-full-width .margin2x > .xl-5,.line-full-width .margin2x > .xl-6,.line-full-width .margin2x > .xl-7,.line-full-width .margin2x > .xl-8,.line-full-width .margin2x > .xl-9,.line-full-width .margin2x > .xl-10,.line-full-width .margin2x > .xl-11,.line-full-width .margin2x > .xl-12,
 .line-full-width .margin2x > .xxl-1,.line-full-width .margin2x > .xxl-2,.line-full-width .margin2x > .xxl-five,.line-full-width .margin2x > .xxl-3,.line-full-width .margin2x > .xxl-4,.line-full-width .margin2x > .xxl-5,.line-full-width .margin2x > .xxl-6,.line-full-width .margin2x > .xxl-7,.line-full-width .margin2x > .xxl-8,.line-full-width .margin2x > .xxl-9,.line-full-width .margin2x > .xxl-10,.line-full-width .margin2x > .xxl-11,.line-full-width .margin2x > .xxl-12 {padding:0 1.25rem;}
 .s-1, .grid .s-1.center {width:8.3333%;}
-.s-2, .grid .s-2.center {width:16.6666%;}
+.s-2, .grid .s-2.center {width:15.5%;}
 .s-five {width:20%;}
 .s-3, .grid .s-3.center {width:25%;}
 .s-4, .grid .s-4.center {width:33.3333%;}
@@ -535,7 +536,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
 .grid .s-row-11 {grid-row:span 11;}
 .grid .s-row-12 {grid-row:span 12;}
 .m-1, .grid .m-1.center {width:8.3333%;}
-.m-2, .grid .m-2.center {width:16.6666%;}
+.m-2, .grid .m-2.center {width:15.5%;}
 .m-five {width:20%;}
 .m-3, .grid .m-3.center {width:25%;}
 .m-4, .grid .m-4.center {width:33.3333%;}
@@ -572,7 +573,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
 .grid .m-row-11 {grid-row:span 11;}
 .grid .m-row-12 {grid-row:span 12;}
 .l-1, .grid .l-1.center {width:8.3333%;}
-.l-2, .grid .l-2.center {width:16.6666%;}
+.l-2, .grid .l-2.center {width:15.5%;}
 .l-five {width:20%;}
 .l-3, .grid .l-3.center {width:25%;}
 .l-4, .grid .l-4.center {width:33.3333%;}

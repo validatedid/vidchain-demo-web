@@ -273,6 +273,7 @@ article p, article li{
 	color: #434446;
 	font-size: 0.85em;
 	opacity: 0.7;
+	text-align: justify;
 }
 article a {
 	color: #fff;
@@ -291,7 +292,8 @@ article ul li:before {
 	color: #fff;
 	content: "\f006";
 	display: inline-block;
-	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	/*font-family: 'Montserrat', 'Open Sans', sans-serif;*/
+	font-family: 'Lato', sans-serif;
 	font-size: 0.8em;
 	height: 20px;
 	line-height: 20px;
@@ -395,6 +397,7 @@ h2.section-title {
 }
 .tab-nav {
 	display: table;
+	max-width: 80rem;
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited {
 	background: #888b8d none repeat scroll 0 0;
