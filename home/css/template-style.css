@@ -437,7 +437,7 @@ h2.section-title {
 }
 .tab-nav {
 	display: table;
-	max-width: 80rem;
+	max-width: 85rem;
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited {
 	background: #888b8d none repeat scroll 0 0;

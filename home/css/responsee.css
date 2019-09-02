@@ -109,8 +109,8 @@ mark {
   padding: 0.125rem 0.3125rem;
 }
 .size-960 .line,.size-960 .grid {max-width:59.75rem;}
-.size-1140 .line,.size-1140 .grid {max-width:80rem;}
-.size-1280 .line,.size-1280 .grid {max-width:80rem;}
+.size-1140 .line,.size-1140 .grid {max-width:85rem;}
+.size-1280 .line,.size-1280 .grid {max-width:85rem;}
 .size-1520 .line,.size-1520 .grid {max-width:95rem;}
 .grid.full {
   max-width:100%!important;
