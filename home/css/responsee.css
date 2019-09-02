@@ -42,7 +42,7 @@ img {
   height:auto;
   max-width:100%;
   width:auto;
-  border: 1px solid #dedede;
+  /*border: 1px solid #dedede;*/
 }
 .owl-item img, .full-img {
   max-width:none;
@@ -917,7 +917,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
     position:fixed;
     top:0;
   	left:0;
-  	background:none repeat scroll 0 0 #1c3849;
+  	background:none repeat scroll 0 0 #00bf71;
   	height:60px;
   	width:60px;
   	text-align:center;
