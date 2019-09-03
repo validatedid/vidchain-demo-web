@@ -214,6 +214,15 @@
                                     <div class="item">
                                         <div><a class="demo-container lightbox margin-bottom"><div class="demo-text"><p>Enter the DNIe CAN code and press 'START'.</p></div><img src="img/instructions/vid029.jpg" alt=""></a></div>
                                     </div>
+                                    <div class="item">
+                                        <div><a class="demo-container lightbox margin-bottom"><div class="demo-text"><p>Take a photo to validate your profile.</p></div><img src="img/instructions/vid030.jpg" alt=""></a></div>
+                                    </div>
+                                    <div class="item">
+                                        <div><a class="demo-container lightbox margin-bottom"><div class="demo-text"><p>Once the photo is loaded, press "VALIDATE BIOMETRICS".</p></div><img src="img/instructions/vid031.jpg" alt=""></a></div>
+                                    </div>
+                                    <div class="item">
+                                        <div><a class="demo-container lightbox margin-bottom"><div class="demo-text"><p>Your DNI attributes will be included in your ViDChain Wallet</p></div><img src="img/instructions/vid032.jpg" alt=""></a></div>
+                                    </div>
                                 </div>
                             </div> <!-- margin -->
                         </div> <!-- tab-content -->
@@ -450,6 +459,8 @@
             var owl = $('#owl-demo');
             owl.owlCarousel({
               nav: false,
+              lazyLoad : true,
+              autoHeight: true,
               dots: true,
               items: 1,
               loop: true,
@@ -459,6 +470,8 @@
             var owl = $('#owl-demo2');
             owl.owlCarousel({
               nav: true,
+              lazyLoad : true,
+              autoHeight: true,
               dots: false,
               items: 1,
               loop: true,
@@ -478,6 +491,8 @@
 
          $('.owl-carousel').owlCarousel({
              loop:false,
+             lazyLoad : true,
+             autoHeight: true,
              margin:10,
              nav:false,
              rewindNav : true,
@@ -492,7 +507,7 @@
                      items:5
                  }
              }
-         })
+         });
       </script>
    </body>
 </html>
