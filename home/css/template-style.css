@@ -140,7 +140,7 @@ p.logo strong {
 	position: relative;
 }
 .resized{
-	max-height: 29.37em !important;
+	/*max-height: 29.37em !important;*/
 }
 .top-left {
 	position: absolute;
