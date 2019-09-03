@@ -394,7 +394,7 @@ h2.section-title:after {
 }
 h2.section-title {
 	color: #434446;
-	font-size: 2.5em;
+	font-size: 3em;
 	font-weight: 700;
 	letter-spacing: -1px;
 	margin: 0 0 1.25em;
@@ -630,9 +630,32 @@ footer p, footer a:visited, footer a, footer a:hover {
 	font-size: 0.6em;
 }
 @media screen and (max-width: 768px) {
+	.background-image {
+		background-position: center;
+	}
   header {
     position: relative;
   }
+	img.logo {
+		max-width: 50%;
+		float: right;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+	}
+	.top-left {
+		top: 20%;
+	}
+	.h2title {
+		font-size: 1.3em;
+	}
+	#download-block h1 {
+		font-size: 1.5em;
+	}
+	h2.section-title {
+		font-size: 2em;
+		line-height: 1.1;
+	}
   #carousel .text {
   	font-size: 0.8em;
   	top: 20%;
@@ -647,7 +670,7 @@ footer p, footer a:visited, footer a, footer a:hover {
   	float: right;
   }
   #demo article {
-  	padding: 4em 2.5em;
+  	padding: 4em 0em;
   }
   .news-text {
   	height: auto;
@@ -661,11 +684,17 @@ footer p, footer a:visited, footer a, footer a:hover {
   .social.right {
   	float: none;
   }
+	img.logo {
+		max-width: 50%;
+		float: right;
+		padding-bottom: 20px;
+		padding-right: 20px;
+	}
   p.logo, p.nav-text {
   	text-align: center;
   }
   h2.section-title {
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1.1;
   }
   p.logo {
@@ -673,8 +702,21 @@ footer p, footer a:visited, footer a, footer a:hover {
     height: 51px;
   }
 }
-@media screen and (max-width: 768px) {
-  .background-image {
-    background-position: center;
-  }
+
+@media screen and (max-width: 320px) {
+	.h2title {
+		font-size: 0.9em;
+	}
+	.psubtitle {
+		font-size: 0.8rem;
+	}
+	h2.section-title {
+		font-size: 1.5em;
+	}
+	article h2 {
+		font-size: 1.3em;
+	}
+	.demo-icons a {
+		font-size: 1em;
+	}
 }
