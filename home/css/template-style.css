@@ -139,6 +139,9 @@ p.logo strong {
 .container{
 	position: relative;
 }
+.resized{
+	max-height: 29.37em !important;
+}
 .top-left {
 	position: absolute;
 	top: 35%;
