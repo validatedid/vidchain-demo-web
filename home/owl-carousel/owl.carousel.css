@@ -49,7 +49,6 @@
     display: block;
     width: 100%;
     object-fit: cover;
-    max-height: 35.5em;
   }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {

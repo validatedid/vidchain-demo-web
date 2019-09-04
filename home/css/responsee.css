@@ -432,7 +432,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   margin:0 auto;	
 }
 .line {clear:left;}
-.line .line {padding:0;}
+/*.line .line {padding:0;}*/
 .hide-xxl {display:none!important;}
 .box {
   background:none repeat scroll 0 0 #fff;
@@ -1093,7 +1093,7 @@ nav.breadcrumb-nav ul li:last-child:after {content:"";}
   .grid .s-row-11 {grid-row:span 11;}
   .grid .s-row-12 {grid-row:span 12;}  
 }
-.grid .s-1,.grid .s-2,.grid .s-five,.grid .s-3,.grid .s-4,.grid .s-5,.grid .s-6,.grid .s-7,.grid .s-8,.grid .s-9,.grid .s-10,.grid .s-11,.grid .s-12,.grid .m-1,.grid .m-2,.grid .m-five,.grid .m-3,.grid .m-4,.grid .m-5,.grid .m-6,.grid .m-7,.grid .m-8,.grid .m-9,.grid .m-10,.grid .m-11,.grid .m-12,.grid .l-1,.grid .l-2,.grid .l-five,.grid .l-3,.grid .l-4,.grid .l-5,.grid .l-6,.grid .l-7,.grid .l-8,.grid .l-9,.grid .l-10,.grid .l-11,.grid .l-12,.grid .xl-1,.grid .xl-2,.grid .xl-five,.grid .xl-3,.grid .xl-4,.grid .xl-5,.grid .xl-6,.grid .xl-7,.grid .xl-8,.grid .xl-9,.grid .xl-10,.grid .xl-11,.grid .xl-12,.grid .xxl-1,.grid .xxl-2,.grid .xxl-five,.grid .xxl-3,.grid .xxl-4,.grid .xxl-5,.grid .xxl-6,.grid .xxl-7,.grid .xxl-8,.grid .xxl-9,.grid .xxl-10,.grid .xxl-11,.grid .xxl-12 {float:none; width:auto;}  
+.grid .s-1,.grid .s-2,.grid .s-five,.grid .s-3,.grid .s-4,.grid .s-5,.grid .s-6,.grid .s-7,.grid .s-8,.grid .s-9,.grid .s-10,.grid .s-11,.grid .s-12,.grid .m-1,.grid .m-2,.grid .m-five,.grid .m-3,.grid .m-4,.grid .m-5,.grid .m-6,.grid .m-7,.grid .m-8,.grid .m-9,.grid .m-10,.grid .m-11,.grid .m-12,.grid .l-1,.grid .l-2,.grid .l-five,.grid .l-3,.grid .l-4,.grid .l-5,.grid .l-6,.grid .l-7,.grid .l-8,.grid .l-9,.grid .l-10,.grid .l-11,.grid .l-12,.grid .xl-1,.grid .xl-2,.grid .xl-five,.grid .xl-3,.grid .xl-4,.grid .xl-5,.grid .xl-6,.grid .xl-7,.grid .xl-8,.grid .xl-9,.grid .xl-10,.grid .xl-11,.grid .xl-12,.grid .xxl-1,.grid .xxl-2,.grid .xxl-five,.grid .xxl-3,.grid .xxl-4,.grid .xxl-5,.grid .xxl-6,.grid .xxl-7,.grid .xxl-8,.grid .xxl-9,.grid .xxl-10,.grid .xxl-11,.grid .xxl-12 {float:none; width:auto;}
 .center {
   float:none;
   margin:0 auto;
